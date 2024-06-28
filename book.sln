@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book", "book\book.csproj", "{8EE352AE-820C-466E-913F-594C8F6E26FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{5473CD0A-8B2F-4BA4-AC5B-A023601BFCEC}"
-	ProjectSection(SolutionItems) = preProject
-		Rinfo_update.cs = Rinfo_update.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
