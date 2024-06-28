@@ -37,6 +37,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -44,8 +46,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(206, 628);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(41, 624);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(272, 174);
             this.button1.TabIndex = 20;
@@ -55,8 +57,8 @@
             // 
             // btn_readers
             // 
-            this.btn_readers.Location = new System.Drawing.Point(617, 628);
-            this.btn_readers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_readers.Location = new System.Drawing.Point(385, 624);
+            this.btn_readers.Margin = new System.Windows.Forms.Padding(4);
             this.btn_readers.Name = "btn_readers";
             this.btn_readers.Size = new System.Drawing.Size(272, 174);
             this.btn_readers.TabIndex = 19;
@@ -66,8 +68,8 @@
             // 
             // btn_borrow_find
             // 
-            this.btn_borrow_find.Location = new System.Drawing.Point(617, 422);
-            this.btn_borrow_find.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_borrow_find.Location = new System.Drawing.Point(385, 418);
+            this.btn_borrow_find.Margin = new System.Windows.Forms.Padding(4);
             this.btn_borrow_find.Name = "btn_borrow_find";
             this.btn_borrow_find.Size = new System.Drawing.Size(272, 174);
             this.btn_borrow_find.TabIndex = 18;
@@ -89,8 +91,8 @@
             // 
             // btn_my_unreturn
             // 
-            this.btn_my_unreturn.Location = new System.Drawing.Point(206, 422);
-            this.btn_my_unreturn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_my_unreturn.Location = new System.Drawing.Point(41, 418);
+            this.btn_my_unreturn.Margin = new System.Windows.Forms.Padding(4);
             this.btn_my_unreturn.Name = "btn_my_unreturn";
             this.btn_my_unreturn.Size = new System.Drawing.Size(272, 174);
             this.btn_my_unreturn.TabIndex = 15;
@@ -101,7 +103,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(-5, 363);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1062, 471);
             this.pictureBox1.TabIndex = 14;
@@ -111,7 +113,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Azure;
             this.pictureBox2.Location = new System.Drawing.Point(-5, 328);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1062, 41);
             this.pictureBox2.TabIndex = 13;
@@ -122,17 +124,39 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(-5, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(1062, 331);
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(729, 624);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(272, 174);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "借书还书";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(729, 418);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(272, 174);
+            this.button3.TabIndex = 22;
+            this.button3.Text = "缴纳罚款";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Readers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 833);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_readers);
             this.Controls.Add(this.btn_borrow_find);
@@ -141,7 +165,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Readers";
             this.Text = "读者";
             this.Load += new System.EventHandler(this.Readers_Load);
@@ -163,5 +187,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

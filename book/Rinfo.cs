@@ -88,7 +88,22 @@ namespace book
 
         private void btn_rinfo_update_Click(object sender, EventArgs e)
         {
+            if (RinfoList.CurrentRow != null)
+            {
+                int selectedIndex = RinfoList.CurrentRow.Index;
+                string rno = RinfoList.Rows[selectedIndex].Cells[0].Value.ToString().Trim();
 
+                Rinfo_update updateForm = new Rinfo_update(rno);
+                updateForm.ShowDialog();
+
+                // 更新列表
+                btn_rinfo_find_Click(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("请根据读者编号（Rno）选择要修改的读者信息");
+            }
         }
+
     }
 }

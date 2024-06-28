@@ -55,7 +55,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(0, -5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1055, 326);
             this.pictureBox2.TabIndex = 3;
@@ -64,7 +64,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(0, -5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1054, 840);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,9 +83,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txt_bpublish);
             this.groupBox1.Location = new System.Drawing.Point(36, 329);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(979, 159);
             this.groupBox1.TabIndex = 40;
             this.groupBox1.TabStop = false;
@@ -114,7 +114,7 @@
             // txt_bno
             // 
             this.txt_bno.Location = new System.Drawing.Point(116, 36);
-            this.txt_bno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_bno.Margin = new System.Windows.Forms.Padding(4);
             this.txt_bno.Name = "txt_bno";
             this.txt_bno.Size = new System.Drawing.Size(177, 35);
             this.txt_bno.TabIndex = 16;
@@ -132,7 +132,7 @@
             // txt_bname
             // 
             this.txt_bname.Location = new System.Drawing.Point(425, 36);
-            this.txt_bname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_bname.Margin = new System.Windows.Forms.Padding(4);
             this.txt_bname.Name = "txt_bname";
             this.txt_bname.Size = new System.Drawing.Size(177, 35);
             this.txt_bname.TabIndex = 17;
@@ -150,7 +150,7 @@
             // txt_bauthor
             // 
             this.txt_bauthor.Location = new System.Drawing.Point(735, 36);
-            this.txt_bauthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_bauthor.Margin = new System.Windows.Forms.Padding(4);
             this.txt_bauthor.Name = "txt_bauthor";
             this.txt_bauthor.Size = new System.Drawing.Size(177, 35);
             this.txt_bauthor.TabIndex = 18;
@@ -168,7 +168,7 @@
             // txt_bpublish
             // 
             this.txt_bpublish.Location = new System.Drawing.Point(116, 101);
-            this.txt_bpublish.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_bpublish.Margin = new System.Windows.Forms.Padding(4);
             this.txt_bpublish.Name = "txt_bpublish";
             this.txt_bpublish.Size = new System.Drawing.Size(177, 35);
             this.txt_bpublish.TabIndex = 19;
@@ -225,7 +225,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "book";
             this.Text = "图书档案管理";
             this.Load += new System.EventHandler(this.book_Load);

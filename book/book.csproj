@@ -83,6 +83,12 @@
     <Compile Include="book_not_return.Designer.cs">
       <DependentUpon>book_not_return.cs</DependentUpon>
     </Compile>
+    <Compile Include="Readers_borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Readers_borrow.Designer.cs">
+      <DependentUpon>Readers_borrow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Readers_overtime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Readers_bookfind.resx">
       <DependentUpon>Readers_bookfind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Readers_borrow.resx">
+      <DependentUpon>Readers_borrow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Readers_myinfo.resx">
       <DependentUpon>Readers_myinfo.cs</DependentUpon>

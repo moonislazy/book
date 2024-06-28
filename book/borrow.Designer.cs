@@ -40,7 +40,6 @@
             this.btn_ruturn = new System.Windows.Forms.Button();
             this.btn_borrow = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.btn_cancel = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label_rentday = new System.Windows.Forms.Label();
@@ -59,7 +58,7 @@
             // txt_borrow_rno
             // 
             this.txt_borrow_rno.Location = new System.Drawing.Point(550, 36);
-            this.txt_borrow_rno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_borrow_rno.Margin = new System.Windows.Forms.Padding(4);
             this.txt_borrow_rno.Name = "txt_borrow_rno";
             this.txt_borrow_rno.Size = new System.Drawing.Size(260, 35);
             this.txt_borrow_rno.TabIndex = 3;
@@ -150,8 +149,8 @@
             // 
             // btn_ruturn
             // 
-            this.btn_ruturn.Location = new System.Drawing.Point(362, 444);
-            this.btn_ruturn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_ruturn.Location = new System.Drawing.Point(527, 444);
+            this.btn_ruturn.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ruturn.Name = "btn_ruturn";
             this.btn_ruturn.Size = new System.Drawing.Size(106, 70);
             this.btn_ruturn.TabIndex = 11;
@@ -161,8 +160,8 @@
             // 
             // btn_borrow
             // 
-            this.btn_borrow.Location = new System.Drawing.Point(132, 444);
-            this.btn_borrow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_borrow.Location = new System.Drawing.Point(243, 444);
+            this.btn_borrow.Margin = new System.Windows.Forms.Padding(4);
             this.btn_borrow.Name = "btn_borrow";
             this.btn_borrow.Size = new System.Drawing.Size(106, 70);
             this.btn_borrow.TabIndex = 10;
@@ -179,17 +178,6 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(0, 27);
             this.label7.TabIndex = 13;
-            // 
-            // btn_cancel
-            // 
-            this.btn_cancel.Location = new System.Drawing.Point(566, 444);
-            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(106, 70);
-            this.btn_cancel.TabIndex = 17;
-            this.btn_cancel.Text = "取 消";
-            this.btn_cancel.UseVisualStyleBackColor = true;
-            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // label3
             // 
@@ -217,9 +205,9 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Location = new System.Drawing.Point(30, 128);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(774, 308);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
@@ -267,7 +255,7 @@
             // txt_borrow_bno
             // 
             this.txt_borrow_bno.Location = new System.Drawing.Point(118, 36);
-            this.txt_borrow_bno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_borrow_bno.Margin = new System.Windows.Forms.Padding(4);
             this.txt_borrow_bno.Name = "txt_borrow_bno";
             this.txt_borrow_bno.Size = new System.Drawing.Size(282, 35);
             this.txt_borrow_bno.TabIndex = 1;
@@ -275,7 +263,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.btn_cancel);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.btn_ruturn);
             this.groupBox1.Controls.Add(this.btn_borrow);
@@ -284,9 +271,9 @@
             this.groupBox1.Controls.Add(this.txt_borrow_bno);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(10, 44);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(856, 562);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
@@ -306,7 +293,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(-18, -2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(916, 632);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -320,7 +307,7 @@
             this.ClientSize = new System.Drawing.Size(874, 628);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "borrow";
             this.Text = "图书借阅管理";
             this.groupBox2.ResumeLayout(false);
@@ -346,7 +333,6 @@
         private System.Windows.Forms.Button btn_ruturn;
         private System.Windows.Forms.Button btn_borrow;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txt_borrow_bno;
